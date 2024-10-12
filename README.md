@@ -7,5 +7,5 @@
 - Nim : 2300016005
 
 ## List of Asignment Web Link
-- [Praktikum 1](#https://aziezzz.github.io/Tekweb_2024_2300016005/Praktikum_1)
-- [Praktikum 2](#https://aziezzz.github.io/Tekweb_2024_2300016005/Praktikum_2)
+- [Praktikum 1](https://aziezzz.github.io/Tekweb_2024_2300016005/Praktikum_1)
+- [Praktikum 2](https://aziezzz.github.io/Tekweb_2024_2300016005/Praktikum_2)
