@@ -3,7 +3,6 @@ node_modules/
 
 # Tailwind CSS build output
 public/css/*.css
-dist/
 build/
 
 # Temporary files
