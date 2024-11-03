@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <html data-theme="light"></html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RemindMe</title>
+    <link rel="stylesheet" href="output.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="Icon" href="img/Logo.png" type="image/x-icon">
+    <style>
+      #mobile-menu {
+          max-height: 0;
+          overflow: hidden;
+          transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+          opacity: 0;
+      }
+  </style>
+
+  </head>
+  <body>
+    <header>
+      <nav class="fixed top-0 w-full bg-white shadow-sm z-50">
+          <div class="flex items-center justify-start px-4 md:px-12 py-5 md:py-3">
+              <!-- Logo -->
+              <div class="navbar px-2 md:px-6">
+                  <img src="img/Logo.png" alt="logo" class="h-12" />
+                  <p class="font-semibold text-2xl">Remind<span class="text-blue-400">me</span></p>
+              </div>
+
+              <!-- Hamburger Menu -->
+              <button id="hamburger" type="button" class="md:hidden ml-auto">
+                <img src="img/hamburger-menu.png" alt="hamburgermenu">
+              </button>
+
+              <!-- Desktop Button -->
+              <div class="hidden md:flex space-x-8 gap-y-2 mr-12 flex-nowrap">
+                <button type="button" class="text-xl px-8 hover:text-cyan-500 duration-500 whitespace-nowrap">Home</button>
+                <button type="button" class="text-xl px-8 hover:text-cyan-500 duration-500 whitespace-nowrap">Features</button>
+                <button type="button" class="text-xl px-8 hover:text-cyan-500 duration-500 whitespace-nowrap">About us</button>
+                <button type="button" class="px-8 btn btn-outline btn-info text-blue-600 rounded-full hidden md:flex justify-end ml-auto">About app</button>
+              </div>
+          </nav>
+      </header>
+  
+    <div>
+
+      
+      <div class="max-w-full min-h-screen flex flex-col md:flex-row items-center bg-white">
+        
+        <div class="md:md:w-1/2 space-y-4 md:space-y-8 m-w-screen-lg pl-10">
+          <h1 class="text-[60px] font-bold xl:m-1">Manage Schedule</h1>
+          <h1 class="text-[60px] font-bold xl:m-1"> and Task Easy</h1>
+          <div
+          class="md:w-1/2 text-base md:text-lg font-extralight mt-8 md:mt-16 text-gray-400">
+          Create and organize schedule and task deadline become better, easy
+          manage and certainly no longer lagging behind schedule of activities
+          and task
+        </div>
+          <button class="bg-blue-500 text-white px-6 py-6 mt-4 rounded-full text-xl hover:bg-blue-400">Download App</button>
+        </div>
+        
+        <!-- Right Section: Hero Image -->
+        <div class="md:w-1/2 justify-end md:h-screen mt-5">
+          <img src="img/Hero Image.png" alt="Hero Image" class="w-full h-full object-cover">
+        </div>
+      </div>
+      
+
+      <div class=" flex flex-col md:flex-row items-center justify-between w-full px-6 md:px-20 py-20 md:py-48 space-y-8 md:space-y-0">
+        <!-- Schedule -->
+        <div class="flex flex-col items-center text-center w-full md:w-auto">
+            <div class="bg-blue-100 p-3 rounded-full">
+                <img class="w-8 h-8 text-blue-500" src="img/uim_schedule.png" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10m2 2V9a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h10a2 2 0 002-2z" />
+                </img>
+            </div>
+            <h3 class="text-lg font-semibold mt-4">Set a better deadline tasks</h3>
+            <p class="text-gray-600">You can make your duty deadlines better and more orderly</p>
+        </div>
+    
+        <!-- Manage -->
+        <div class="flex flex-col items-center text-center w-full md:w-auto">
+            <div class="bg-blue-100 p-3 rounded-full">
+                <img class="w-8 h-8 text-blue-500" src="img/uim_layer-group.png" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354l-6 3.3v1.73l6 3.3 6-3.3v-1.73l-6-3.3zM6 12.384v1.73l6 3.3 6-3.3v-1.73m-12 0L6 15.354m12-3.3l-6 3.3" />
+                </img>
+            </div>
+            <h3 class="text-lg font-semibold mt-4">Manage the tasks so easily</h3>
+            <p class="text-gray-600">You can manage the deadlines and the schedule becomes easy</p>
+        </div>
+    
+        <!-- Wouldn’t miss notifications -->
+        <div class="flex flex-col items-center text-center w-full md:w-auto">
+            <div class="bg-blue-100 p-3 rounded-full">
+                <img class="w-8 h-8 text-blue-500" src="img/ri_notification-fill.png" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6 6 0 10-12 0v3.159c0 .538-.214 1.055-.595 1.437L4 17h5m5 5h-6a2 2 0 002 2h2a2 2 0 002-2z" />
+                </img>
+            </div>
+            <h3 class="text-lg font-semibold mt-4">Wouldn’t miss notifications</h3>
+            <p class="text-gray-600">Of course you will always get the tasks and schedule notifications</p>
+        </div>
+    </div>
+    
+    
+    <!-- Advantages 1 -->
+    <div class="flex flex-col md:flex-row px-0 md:px-0 md:mt-20">
+      <div class="w-full md:w-1/2 mt-10 md:mt-0 md:ml-0 pl-0">
+        <img 
+          src="img/Create new task.png" 
+          alt="advantage img 1" 
+          class="w-full h-auto object-contain"
+        />
+      </div>
+       
+      <div class="w-full mr-10 md:w-1/2 mt-10 md:mt-0 md:px-20 md:py-40">
+        <div class="md:max-w-xl px-6">
+          <h2 class="text-xl md:text-4xl font-bold ">
+            Set up task and schedule 
+          </h2>
+          <h2 class="text-xl md:text-4xl font-bold md:mt-3 mt-2">
+            with a best features
+          </h2>
+          <h3 
+            class="mt-8 text-base md:text-lg font-extralight text-gray-400"
+          >
+            <div>The best feature makes you better, with</div> 
+            <div>the latest technology to meet your</div> 
+            <div>needs. Of course, with such features as</div> 
+            <div>organizing schedules and leading</div> 
+            <div>assignments, it will make you easier, So </div>
+            <div>get the 
+              application now !</div>
+          </h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- Advantages 2 -->
+    <div class="flex flex-col md:flex-row px-0 md:px-0 md:mt-20 mt-20">
+      <div
+        class="w-full md:w-1/2 order-2 md:order-1 flex flex-col mt-10 md:mt-48 px-6 md:px-28">
+        <h2 class="mb-2 md:mb-3 text-xl md:text-4xl font-bold">Get the highest priority</h2>
+        <h2 class="text-xl md:text-4xl font-bold">application notification</h2>
+        <h3 class="mt-8 md:mt-16 text-base md:text-lg font-extralight text-gray-400">
+        <div>The best feature makes you better, with</div> 
+        <div>the latest technology to meet your</div> 
+        <div>needs. Of course, with such features as</div> 
+        <div>organizing schedules and leading</div> 
+        <div>assignments, it will make you easier, So </div>
+        <div>get the 
+          application now !</div>
+          
+        </h3>
+      </div>
+      <div class="w-full md:w-1/2 order-1 md:order-2 mt-10 md:mt-16 md:ml-auto">
+        <img
+          src="img/Notification-app.png"
+          alt="advantages img 2"
+          class="w-full h-auto"
+        />
+      </div>
+    </div>
+
+  <!-- Download App -->
+  <div class="ml-12 mr-12 py-24 md:py-56 md:mx-auto text-center">
+    <div
+      class="w-full max-w-3xl md:max-w-6xl md:justify-center mx-auto bg-blue-600 rounded-3xl py-8 sm:py-12 px-6 sm:px-8 relative overflow-hidden">
+      <div class="absolute inset-0 w-full h-full">
+        <img
+          src="img/Mask Group.png"
+          alt="background pattern"
+          class="w-full h-full object-cover opacity-30"
+        />
+      </div>
+
+      <div class="relative z-10">
+        <h2
+          class="text-white text-xl md:text-3xl md:mt-10 font-semibold mb-8">
+          Download an app now and the various benefits you will get
+          immediately
+        </h2>
+        <div
+          class="flex flex-col md:flex-row justify-center md:space-x-10 md:mt-16 md:mb-12">
+          <button
+            class="ml-3 mr-3 bg-white text-blue-600 font-semibold py-3 md:px-8 md:text-base rounded-full hover:bg-gray-400 transition-colors">
+            Download App
+          </button>
+          <button
+            class="ml-3 mr-3 mt-7 md:mt-0 text-white border border-white font-semibold py-3 md:py-4 md:px-10 md:text-base rounded-full hover:bg-white hover:text-blue-800 transition-colors">
+            About App
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--Testimonial-->
+<div class="flex flex-col md:flex-row px-0 md:px-0 md:mt-20">
+  <div class="w-full md:w-1/2 mt-10 md:mt-0 md:ml-0 pl-0">
+    <img
+      src="img/Testimonial Img.png"
+      alt="testi"
+      class="hidden md:block w-full h-auto object-contain"
+    />
+  </div>
+
+  <div class="w-full mr-10 md:w-1/2 mt-0 md:mt-0 md:px-20 md:py-24">
+    <div class="md:max-w-xl px-6">
+      <h2 class="text-xl md:text-4xl font-bold">What do they think</h2>
+      <img src="img/Profile.svg" alt="testiprofile" class="mt-10 md:mt-14 w-60 h-auto object-contain" />
+    </div>
+
+    <h3 class="ml-6 mr-6 mt-8 text-base md:text-lg font-extralight">
+      “ Hi, it’s Samantha. After using it made me a lot of benefits,
+      starting with convenience of setting a deadline of tasks and schedule
+      after that the app is very simple using. “
+    </h3>
+    <div
+      class="justify-center md:justify-normal md:ml-6 mt-8 flex flex-row">
+      <button class="hover:bg-blue-300 rounded-full">
+        <img src="img/left-arrow.png" alt="leftarrow" />
+      </button>
+      <button class="ml-5 hover:bg-blue-300 rounded-full">
+        <img src="img/right-arrow.png" alt="rightarrow" />
+      </button>
+    </div>
+  </div>
+</div>
+
+<!--Footer-->
+<div class="mt-24 md:mt-32 px-4 md:px-20 flex flex-col md:flex-row md:mb-20">
+  <div class="flex items-center w-full md:w-1/3 mb-8 md:mb-0">
+    <img src="img/Logo.png" alt="logofooter" class="w-20 md:w-20 h-auto lg: -mt-24 sm: -mb-10"/>
+    <div class="ml-2">
+      <h1 class="font-semibold text-2xl -mb-7">Remind<span class="text-blue-400">me</span></h1>
+      <h2 class="md:mt-8 text-base md:text-lg font-extralight text-gray-400 sm: mt-8">
+      Task deadlines and scheduling applications with various benefits and
+      advantages
+      </h2>
+    </div>
+    <div>
+  </div>
+</div>
+
+<div class="flex flex-row ml-5">
+  <div class="mb-8 md:mb-0 md:ml-10 md:mt-5">
+    <h2 class="font-semibold text-2xl mr-4">Sitemaps</h2>
+    <ul class="ml-5 mt-5 md:ml-5 md:mt-10 list-disc marker:text-blue-600">
+      <li>
+        <button class="text-gray-400 hover:underline mr-4">Home</button>
+      </li>
+      <li>
+        <button class="text-gray-400 hover:underline mt-2 mb-2 mr-4">Feature</button>
+      </li>
+      <li>
+        <button class="text-gray-400 hover:underline mr-4">About us</button>
+      </li>
+    </ul>
+  </div>
+
+  <div class="mb-8 md:mb-0 md:ml-20 md:mt-5">
+    <h2 class="font-semibold text-2xl ml-10 md:ml-0 mr-4">Advantages</h2>
+    <ul class="ml-14 mt-5 md:ml-5 md:mt-10 list-disc marker:text-blue-600">
+      <li class="text-gray-400">
+        <button class="hover:underline mr-4">Set Task Better</button>
+      </li>
+      <li class="text-gray-400 mt-2 mb-2">
+        <button class="hover:underline mr-4">Easy Manages</button>
+      </li>
+      <li class="text-gray-400">
+        <button class="hover:underline mr-4">Get Notification</button>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="mb-8 md:mb-0 md:ml-24 md:mt-5">
+  <h2 class="font-semibold text-2xl mt-8 md:mt-0 mr-4">Follow Us</h2>
+  <div class="md:py-8 flex flex-row md:space-x-10">
+    <button type="button" class="hover:bg-gray-300 rounded-full px-3 py-3 mr-4">
+      <img src="img/logo-facebook.png" alt="facebook" />
+    </button>
+    <button type="button" class="hover:bg-gray-300 rounded-full px-3 py-3 mr-4">
+      <img src="img/logo-twitter.png" alt="twitter" />
+    </button>
+    <button type="button" class="hover:bg-gray-300 rounded-full px-3 py-3">
+      <img src="img/logo-linkedin.png" alt="linkedin" />
+    </button>
+  </div>
+</div>
+  </body>
+</html>
