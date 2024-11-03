@@ -3,21 +3,4 @@ node_modules/
 
 # Tailwind CSS build output
 public/css/*.css
-build/
-
-# Temporary files
-*.tmp
-*.log
-
-# MacOS & Linux system files
-.DS_Store
-Thumbs.db
-
-# IDE/Editor-specific files
-.vscode/
-.idea/
-
-# Environment variables
-.env
-.env.local
 
