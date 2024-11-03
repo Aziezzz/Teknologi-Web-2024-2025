@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+<<<<<<< HEAD
     "dev": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+=======
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+>>>>>>> abece94143fb61029bb19486d640f520f1b5f13d
   },
   "author": "",
   "license": "ISC",
