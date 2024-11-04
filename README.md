@@ -11,3 +11,4 @@
 - [Praktikum 2](https://aziezzz.github.io/Tekweb_2024_2300016005/Praktikum_2)
 - [Praktikum 3](https://aziezzz.github.io/Tekweb_2024_2300016005/Praktikum_3)
 - [Praktikum 4](https://aziezzz.github.io/Tekweb_2024_2300016005/Praktikum_4/src/)
+- [Praktikum 5](https://aziezzz.github.io/Tekweb_2024_2300016005/Praktikum_5/src/)
