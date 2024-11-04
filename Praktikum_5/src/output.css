@@ -962,6 +962,19 @@ html {
   }
 }
 
+.hero {
+  display: grid;
+  width: 100%;
+  place-items: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero > * {
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+
 .link {
   cursor: pointer;
   text-decoration-line: underline;
@@ -1432,6 +1445,10 @@ html {
   margin-top: 6rem;
 }
 
+.mt-32 {
+  margin-top: 8rem;
+}
+
 .mt-4 {
   margin-top: 1rem;
 }
@@ -1446,6 +1463,58 @@ html {
 
 .mt-8 {
   margin-top: 2rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.-ml-4 {
+  margin-left: -1rem;
+}
+
+.-ml-6 {
+  margin-left: -1.5rem;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+.mr-8 {
+  margin-right: 2rem;
+}
+
+.mr-14 {
+  margin-right: 3.5rem;
+}
+
+.-ml-8 {
+  margin-left: -2rem;
+}
+
+.-ml-9 {
+  margin-left: -2.25rem;
+}
+
+.-ml-0 {
+  margin-left: -0px;
+}
+
+.-ml-1 {
+  margin-left: -0.25rem;
+}
+
+.-ml-2 {
+  margin-left: -0.5rem;
+}
+
+.-ml-3 {
+  margin-left: -0.75rem;
 }
 
 .flex {
@@ -1472,10 +1541,6 @@ html {
   height: 100%;
 }
 
-.min-h-screen {
-  min-height: 100vh;
-}
-
 .w-20 {
   width: 5rem;
 }
@@ -1494,10 +1559,6 @@ html {
 
 .max-w-3xl {
   max-width: 48rem;
-}
-
-.max-w-full {
-  max-width: 100%;
 }
 
 .list-disc {
@@ -1647,6 +1708,11 @@ html {
   padding-right: 2rem;
 }
 
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -1675,6 +1741,11 @@ html {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
 }
 
 .pl-0 {
@@ -1711,6 +1782,11 @@ html {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .font-bold {
@@ -1824,6 +1900,11 @@ html {
 .hover\:text-cyan-500:hover {
   --tw-text-opacity: 1;
   color: rgb(6 182 212 / var(--tw-text-opacity));
+}
+
+.hover\:text-cyan-800:hover {
+  --tw-text-opacity: 1;
+  color: rgb(21 94 117 / var(--tw-text-opacity));
 }
 
 .hover\:underline:hover {
@@ -1940,6 +2021,18 @@ html {
     margin-top: 2rem;
   }
 
+  .md\:mb-10 {
+    margin-bottom: 2.5rem;
+  }
+
+  .md\:-mt-16 {
+    margin-top: -4rem;
+  }
+
+  .md\:-mt-24 {
+    margin-top: -6rem;
+  }
+
   .md\:block {
     display: block;
   }
@@ -1952,8 +2045,8 @@ html {
     display: none;
   }
 
-  .md\:h-screen {
-    height: 100vh;
+  .md\:h-auto {
+    height: auto;
   }
 
   @media (min-width: 768px) {
@@ -2051,6 +2144,11 @@ html {
     padding-right: 2rem;
   }
 
+  .md\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
   .md\:py-24 {
     padding-top: 6rem;
     padding-bottom: 6rem;
@@ -2086,6 +2184,11 @@ html {
     padding-bottom: 2rem;
   }
 
+  .md\:px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
   .md\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
@@ -2104,6 +2207,57 @@ html {
   .md\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:-mt-2 {
+    margin-top: -0.5rem;
+  }
+
+  .lg\:-mt-4 {
+    margin-top: -1rem;
+  }
+
+  .lg\:-mt-6 {
+    margin-top: -1.5rem;
+  }
+
+  .lg\:mt-4 {
+    margin-top: 1rem;
+  }
+
+  .lg\:mt-8 {
+    margin-top: 2rem;
+  }
+
+  .lg\:-mt-12 {
+    margin-top: -3rem;
+  }
+
+  .lg\:mt-6 {
+    margin-top: 1.5rem;
+  }
+
+  .lg\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
+  .lg\:mt-12 {
+    margin-top: 3rem;
+  }
+
+  .lg\:mt-14 {
+    margin-top: 3.5rem;
+  }
+
+  .lg\:mt-16 {
+    margin-top: 4rem;
   }
 }
 
